@@ -1,0 +1,124 @@
+.color-primary-0 { color: #E53733 }	/* Main Primary color */
+.color-primary-1 { color: #FFA19F }
+.color-primary-2 { color: #FF6965 }
+.color-primary-3 { color: #B81410 }
+.color-primary-4 { color: #840300 }
+
+
+footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+body { padding-top: 50px; }
+
+
+.row-small {
+  margin:40px 0;
+}
+.wborder {
+  border: 1px solid #e5e5e5;
+  background-color: #eee;
+}
+
+.list-group-item > .btn-group  {
+  display: inline-block;
+  padding: 0px 7px;
+  float: right;
+}
+
+/*
+  hellblau: #28B
+  dunkelblau: #39D
+  schrift-unauffaellig: #BCE
+
+/* JUMBOTRON */
+.jumbotron-blau {
+  color: #BCE;
+  background-color: #39D;
+  background-image: linear-gradient(to bottom, #28B 0px, #39D 100%); /*linear-gradient(to bottom, #563D7C 0px, #6F5499 100%);*/
+  background-repeat: repeat-x;
+}
+
+.jumbotron-blau h1 {
+    -margin-top: 0px;
+    color: #FFF;
+}
+
+.jumbotron-blau .btn-primary {
+    background-image: linear-gradient(to bottom, #27A 0px, #158 100%);
+    background-repeat: repeat-x;
+    border-color: #158;
+}
+
+.jumbotron-lila {
+  color: #CDBFE3;
+  background-color: #6F5499;
+  background-image: linear-gradient(to bottom, #563D7C 0px, #6F5499 100%); 
+  background-repeat: repeat-x;
+}
+
+.jumbotron-lila h1 {
+    -margin-top: 0px;
+    color: #FFF;
+}
+
+.jumbotron-lila .btn-primary {
+  background-color: #87B;
+  border-color: #76A;
+
+}
+
+/* PANEL */
+
+.panel-outline-big {
+    border-width:6px;
+	border-radius:20px;
+}
+
+.panel-blau {
+    border-color: #39D;
+}
+
+.panel-blau .panel-heading {
+    border-color: #39D;
+    color: #fff;
+  background-color: #39D;
+  background-image: linear-gradient(to bottom, #28B 0px, #39D 100%); /*linear-gradient(to bottom, #563D7C 0px, #6F5499 100%);*/
+  background-repeat: repeat-x;
+}
+
+.panel-blau .panel-heading small {
+    color: #aaa;
+}
+
+.panel-blau a {
+    color: #39D;
+}
+
+.panel-blau a:hover {
+    color: #158;
+}
+
+.panel-lila {
+    border-color: #75A;
+}
+
+.panel-lila .panel-heading {
+    border-color: #75A;
+    color: #fff;
+    background-color: #75A;
+}
+
+.panel-lila .panel-heading small {
+    color: #aaa;
+}
+
+.panel-lila a {
+    color: #75A;
+}
+
+.panel-lila a:hover {
+    color: #427;
+}

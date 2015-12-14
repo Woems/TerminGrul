@@ -1,0 +1,7 @@
+<table border=1>
+<?php
+while (list($var,$value) = each ($_SERVER)) {
+echo "<tr><th>".$var."</th><td>".$value."</td></tr>";
+}
+?>
+</table>

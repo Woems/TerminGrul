@@ -1,0 +1,1 @@
+<?php  class Content  {    public function __construct()	{	  echo "ctor";	}  }?>
