@@ -124,10 +124,11 @@
       $activationpass=str_shuffle(md5(rand()));
       $dbuser->create(REQUEST("nick"), REQUEST("email"), REQUEST("password1"), $activationpass);
       $mail = new Mail();
+      global $CONFIG;
       $mail->userActivation(
         REQUEST("nick"),
         REQUEST("email"),
-        "https://woems.selfhost.eu:23882/my/TerminGrul/?activate=".$activationpass
+        $CONFIG["ServerDir"]."?activate=".$activationpass
       );
       $template->add("regsuccess", "Mail wurde versandt"); $template->view("login");
     }
